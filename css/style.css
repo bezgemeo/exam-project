@@ -466,6 +466,17 @@ header nav ul li a:hover{
 	transform: translate(-50%);
 }
 
+.simple h2 .meaning{
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 22px;
+	display: inline-block;
+	position: relative;
+	margin: 0 27px;
+	padding-bottom: 17px;
+}
+
 .simple span{
 	display: inline-block;
 	font-size: 50px;
@@ -1278,6 +1289,12 @@ header nav ul li a:hover{
 		padding-bottom: 33px;
 	}
 
+	.simple h2 .meaning{
+		font-size: 45px;
+		line-height: 60px;
+		padding-bottom: 33px;
+	}
+
 	.simple span {
 		font-size: 110px;
 		line-height: 112px;
@@ -1557,6 +1574,13 @@ header nav ul li a:hover{
 		margin: 0;
 	}
 
+	.simple h2 .meaning{
+		font-size: 45px;
+		line-height: 56px;
+		padding-bottom: 0;
+		margin: 0;
+	}
+
 	.simple p {
 		margin-top: 20px;
 		font-size: 24px;
@@ -1564,12 +1588,12 @@ header nav ul li a:hover{
 
 	.simple span.quote1 {
 		top: -17px;
-		left: -63px;
+		left: 42px;
 	}
 
 	.simple span.quote2 {
 		top: -62px;
-		right: -65px;
+		right: 42px;
 	}
 
 	.team {
